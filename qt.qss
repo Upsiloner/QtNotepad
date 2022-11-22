@@ -1,0 +1,46 @@
+
+QMenuBar{
+    font-size:22px;
+    background-color:#f0f0f0;
+}
+
+
+QMenuBar::item{
+    padding:8px 20px;
+    border:1px solid #f0f0f0;
+    border-radius:10px;
+}
+
+QMenuBar::item:selected{
+    background-color:#ffffff;
+    border:2px solid #e6e8f6;
+}
+
+
+QMenu::item{
+    font-size:22px;
+    width:80px;
+    border-radius:10px;
+    padding:8px 10px 8px 35px;
+}
+
+QMenu{
+    border:2px solid #e3e5f2;
+    padding:4px 2px;
+    border-radius:9px;
+}
+
+QMenu::item:selected{
+    background-color:#ffffff;
+}
+
+#watch{
+    font-size:22px;
+    width:200px;
+}
+
+
+QStatusBar{
+    font-size:22px;
+    background-color:#f0f0f0;
+}
